@@ -2,9 +2,9 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   if number % 3 == 0 
-    "Fizz"
+    puts "Fizz"
   elsif number % 5 == 0 
-    "Buzz"
+    puts "Buzz"
   else number % 3 == 0 && number % 5 == 0 
-    "FizzBuzz"
+    puts "FizzBuzz"
 end
